@@ -33,14 +33,14 @@ public class GameBoardView extends View {
         // This keeps the grid square and centered, regardless of orientation (portrait/landscape)
         float gridSize = Math.min(screenWidth, screenHeight) * 0.9f;
 
-        // Calculate the size of each cell (since the grid is 5x5, divide by 5)
+        // This calculate the size of each cell (since the grid is 5x5, divide by 5)
         float cellSize = gridSize / 5;
 
-        // Calculate the starting X and Y coordinates so that the grid is centered on the screen
+        // This one calculates the starting X and Y coordinates so that the grid is centered on the screen
         float startX = (screenWidth - gridSize) / 2;
         float startY = (screenHeight - gridSize) / 2;
 
-        // Set the line thickness relative to the screen size (2% of the grid size)
+        // This will set the line thickness relative to the screen size (2% of the grid size)
         linePaint.setStrokeWidth(gridSize * 0.02f);
 
         // Draw the 5x5 grid using a loop
@@ -56,3 +56,5 @@ public class GameBoardView extends View {
         }
     }
 }
+
+//Practice
