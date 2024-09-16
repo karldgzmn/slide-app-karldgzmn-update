@@ -53,6 +53,7 @@ public class GameBoardView extends View {
             // Draw vertical lines across the grid
             // Each line starts at (startX + i * cellSize, startY) and ends at (startX + i * cellSize, startY + gridSize)
             canvas.drawLine(startX + i * cellSize, startY, startX + i * cellSize, startY + gridSize, linePaint);
+            //Practiceaaasd
         }
     }
 }
