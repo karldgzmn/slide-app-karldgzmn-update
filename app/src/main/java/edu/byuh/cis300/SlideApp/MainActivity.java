@@ -1,11 +1,10 @@
-package edu.byuh.cis300.gridassignment1;
+package edu.byuh.cis300.SlideApp;
 
 import static android.graphics.Color.BLACK;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.view.View;
 
