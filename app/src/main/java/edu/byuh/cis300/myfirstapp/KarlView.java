@@ -8,10 +8,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.view.View;
 
-import edu.byuh.cis300.myfirstapp.R;
-import edu.byuh.cis300.myfirstapp.Duck;
-
-public class TedView extends View {
+public class KarlView extends View {
 
     private Paint teddy;
     private Paint vanessa;
@@ -19,7 +16,7 @@ public class TedView extends View {
     private boolean initialized;
     private Duck fah;
 
-    public TedView(Context c) {
+    public KarlView(Context c) {
         super(c);
         initialized = false;
         teddy = new Paint();
